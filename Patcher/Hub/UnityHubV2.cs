@@ -5,12 +5,12 @@ namespace UniHacker
     internal class UnityHubV2
     {
         const string getLicenseInfoBody = @"licenseInfo.activated = true;
-        licenseInfo.flow = licenseCore.licenseKinds.PRO;
-        licenseInfo.label = licenseCore.licenseKinds.PRO;
+        licenseInfo.flow = licenseCore.licenseKinds.ENTERPRISE;
+        licenseInfo.label = licenseCore.licenseKinds.ENTERPRISE;
         licenseInfo.offlineDisabled = false;
         licenseInfo.transactionId = licenseCore.getTransactionId();
-        licenseInfo.startDate = new Date('1993-01-01T08:00:00.000Z');
-        licenseInfo.stopDate = licenseCore.getInfinityDate();
+        licenseInfo.startDate = new Date('2023-04-16T09:00:00.000Z');
+        licenseInfo.stopDate = new Date('2025-04-16T09:00:00.000Z');
         licenseInfo.displayedStopDate = false;
         licenseInfo.canExpire = false;
         const licenseInfoString = JSON.stringify(licenseInfo);
@@ -21,11 +21,11 @@ namespace UniHacker
 
         const string getDefaultUserInfoBody = @"return {
             accessToken: '',
-            displayName: 'anonymous',
+            displayName: 'takineko',
             organizationForeignKeys: '',
             primaryOrg: '',
-            userId: 'anonymous',
-            name: 'anonymous',
+            userId: 'takineko',
+            name: 'takineko',
             valid: false,
             whitelisted: true
         };";

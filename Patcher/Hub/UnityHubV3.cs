@@ -50,10 +50,10 @@ namespace UniHacker
         const string getValidEntitlementGroups = @"
         return __awaiter(this, void 0, void 0, function* () {
             return [{
-                startDate: new Date('1993-01-01T08:00:00.000Z'),
-                expirationDate: new Date('9999-01-01T08:00:00.000Z'),
-                productName: i18nHelper_1.default.i18n.translate('license-management:TYPE_PRO'),
-                licenseType: 'PRO',
+                startDate: new Date('2023-04-16T09:00:00.000Z'),
+                expirationDate: new Date('2025-04-16T09:00:00.000Z'),
+                productName: i18nHelper_1.default.i18n.translate('license-management:TYPE_ENTERPRISE'),
+                licenseType: 'ENTERPRISE',
             }];
         });
 ";
@@ -66,11 +66,11 @@ namespace UniHacker
 
         const string fetchUserInfo = @"
 		return {
-			foreign_key: 'anonymous',
-			name: 'anonymous',
-			email: 'anonymous@gmail.com',
-			primary_org: 'anonymous',
-			identifier: 'anonymous',
+			foreign_key: 'takineko',
+			name: 'takineko',
+			email: 'takineko@theflightsims.tfs',
+			primary_org: 'takineko',
+			identifier: 'takineko',
 			created_at: 0,
 		}
 ";

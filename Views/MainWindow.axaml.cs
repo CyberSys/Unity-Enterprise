@@ -1,9 +1,9 @@
-using System;
-using System.Collections.Generic;
-using System.Diagnostics;
 using Avalonia.Controls;
 using Avalonia.Controls.Primitives;
 using MessageBox.Avalonia.Enums;
+using System;
+using System.Collections.Generic;
+using System.Diagnostics;
 
 namespace UniHacker.Views
 {
@@ -37,7 +37,7 @@ namespace UniHacker.Views
         {
             var assembly = System.Reflection.Assembly.GetExecutingAssembly();
             var version = FileVersionInfo.GetVersionInfo(assembly.Location);
-            Title = $"UniHacker - Unity3D & UnityHub Patcher by tylearymf v{version.ProductVersion}";
+            Title = $"Unity Enterprise Activator - Version: {version.ProductVersion}";
 
             var controls = new List<TemplatedControl>()
             {

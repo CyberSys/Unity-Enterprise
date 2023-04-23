@@ -1,5 +1,4 @@
-﻿using System;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
 #if !DOCKER_ENV
 using Avalonia.Controls;
 using MessageBox.Avalonia.DTO;

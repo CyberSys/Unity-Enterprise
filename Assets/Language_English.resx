@@ -118,11 +118,11 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Description" xml:space="preserve">
-    <value>Patch all versions of Unity and UnityHub.  
- 
-If patch fails, please submit Unity binary file or Unity Hub version number on Github issue.  
+    <value>Enterprise activation for Unity3D &amp; UnityHub, made by @tylearymf
 
-https://www.github.com/tylearymf/UniHacker</value>
+Contributed by takineko@theflightsims.tfs. 
+
+DO NOT use as a illegal activation. Only for personal uses with research purpose only.</value>
   </data>
   <data name="Hub_copy_error1" xml:space="preserve">
     <value>Failed to copy files. Please manually copy files! '{0}' -&gt; '{1}'</value>

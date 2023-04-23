@@ -1,5 +1,4 @@
-﻿using System;
-using System.IO;
+﻿using System.IO;
 using System.Threading.Tasks;
 #if !DOCKER_ENV
 using MessageBoxAvalonia = MessageBox.Avalonia;
@@ -12,10 +11,10 @@ namespace UniHacker
         const string getValidEntitlementGroups = @"
         return __awaiter(this, void 0, void 0, function* () {
             return [{
-                startDate: new Date('1993-01-01T08:00:00.000Z'),
-                expirationDate: new Date('9999-01-01T08:00:00.000Z'),
-                productName: __importDefault(require(""../../i18nHelper"")).default.i18n.translate('license-management:TYPE_EDUCATION'),
-                licenseType: 'ULF',
+                startDate: new Date('2023-04-16T09:00:00.000Z'),
+                expirationDate: new Date('2025-04-16T09:00:00.000Z'),
+                productName: __importDefault(require(""../../i18nHelper"")).default.i18n.translate('license-management:TYPE_ENTERPRISE'),
+                licenseType: 'ENTERPRISE',
             }];
         });
 ";

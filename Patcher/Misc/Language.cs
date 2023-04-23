@@ -17,16 +17,8 @@ namespace UniHacker
             var languageFileName = string.Empty;
             var culture = default(CultureInfo);
 
-            if (language == "zh-CN")
-            {
-                culture = new CultureInfo("zh-CN");
-                languageFileName = Chinese;
-            }
-            else
-            {
-                culture = new CultureInfo("en-US");
-                languageFileName = English;
-            }
+            culture = new CultureInfo("en-US");
+            languageFileName = English;
 
             CultureInfo.DefaultThreadCurrentCulture = culture;
             CultureInfo.DefaultThreadCurrentUICulture = culture;
