@@ -40,15 +40,15 @@
 | :----: | :----: | :----------------: | :----------------: | :----------------: | :----------------: |
 |  :x:   |  :x:   | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 
-|       2018.x       |       2017.x       | 5.x                | 4.x                |      |      |
-| :----------------: | :----------------: | ------------------ | ------------------ | ---- | ---- |
-| :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |      |      |
+|       2018.x       |       2017.x       | 5.x                | 4.x                |
+| :----------------: | :----------------: | ------------------ | ------------------ |
+| :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 
 ### Supported Unity Hub Versions
 
-|        3.x         |        2.x         |      |      |      |      |
-| :----------------: | :----------------: | ---- | ---- | ---- | ---- |
-| :heavy_check_mark: | :heavy_check_mark: |      |      |      |      |
+|        3.x         |        2.x         |
+| :----------------: | :----------------: |
+| :heavy_check_mark: | :heavy_check_mark: |
 
 ## Linux OS
 
@@ -58,15 +58,14 @@
 | :----: | :----: | :----------------: | :----------------: | :----------------: | :----------------: |
 |  :x:   |  :x:   | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 
-|       2018.x       |       2017.x       |      |      |      |      |
-| :----------------: | :----------------: | ---- | ---- | ---- | ---- |
-| :heavy_check_mark: | :heavy_check_mark: |      |      |      |      |
-
+|       2018.x       |       2017.x       |
+| :----------------: | :----------------: |
+| :heavy_check_mark: | :heavy_check_mark: |
 ### Supported Unity Hub Versions
 
-|        3.x         |        2.x         |      |      |      |      |
-| :----------------: | :----------------: | ---- | ---- | ---- | ---- |
-| :heavy_check_mark: | :heavy_check_mark: |      |      |      |      |
+|        3.x         |        2.x         |
+| :----------------: | :----------------: |
+| :heavy_check_mark: | :heavy_check_mark: |
 
 ## Legal Disclaimer
 
