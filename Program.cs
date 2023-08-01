@@ -1,4 +1,5 @@
 using Avalonia;
+using Avalonia.Media;
 using Avalonia.ReactiveUI;
 using System;
 using System.Diagnostics;
@@ -24,6 +25,10 @@ namespace UniHacker
             => AppBuilder.Configure<App>()
                 .UsePlatformDetect()
                 .LogToTrace()
+                .With(new FontManagerOptions
+                {
+                    DefaultFamilyName = "avares://MyAssembly/MyAssets#MyCustomFont"
+                })
                 .UseReactiveUI();
 
         static void Test()
