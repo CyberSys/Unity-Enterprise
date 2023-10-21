@@ -66,11 +66,11 @@ namespace UniHacker
 
         const string fetchUserInfo = @"
 		return {
-			foreign_key: 'takineko',
-			name: 'takineko',
-			email: 'takineko@theflightsims.tfs',
-			primary_org: 'takineko',
-			identifier: 'takineko',
+			foreign_key: 'shiroineko',
+			name: 'shiroineko',
+			email: 'shiroineko@theflightsims.tfs',
+			primary_org: 'shiroineko',
+			identifier: 'shiroineko',
 			created_at: 0,
 		}
 ";

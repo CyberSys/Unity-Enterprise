@@ -21,11 +21,11 @@ namespace UniHacker
 
         const string getDefaultUserInfoBody = @"return {
             accessToken: '',
-            displayName: 'takineko',
+            displayName: 'shiroineko',
             organizationForeignKeys: '',
             primaryOrg: '',
-            userId: 'takineko',
-            name: 'takineko',
+            userId: 'shiroineko',
+            name: 'shiroineko',
             valid: false,
             whitelisted: true
         };";
